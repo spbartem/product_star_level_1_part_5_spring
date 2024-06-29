@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/lesson_1_ioc_di/ioc-di-homework/xmlbasedcfg/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_1_ioc_di/ioc-di-homework/javabasedcfg/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_1_ioc_di/ioc-di-homework/groovybasedcfg/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_1_ioc_di/ioc-di-workshop/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson_3_spring_context/homework-spring-context/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

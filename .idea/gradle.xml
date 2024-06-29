@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_2_spring_basics/homework-spring-basic" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_2_spring_basics/homework-spring-basic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_2_spring_basics/workshop-spring-basic" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_2_spring_basics/workshop-spring-basic" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_3_spring_context/workshop-spring-context" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_3_spring_context/workshop-spring-context" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_4_spring_rest/homework-spring-rest" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_4_spring_rest/homework-spring-rest" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/lesson_4_spring_rest/workshop-spring-rest" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/lesson_4_spring_rest/workshop-spring-rest" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
