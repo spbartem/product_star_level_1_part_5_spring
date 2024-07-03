@@ -59,4 +59,5 @@
     <listener>
         <listener-class>ru.productstar.servlets.listeners.LogAttributeChanges</listener-class>
     </listener>
+
 </web-app>
