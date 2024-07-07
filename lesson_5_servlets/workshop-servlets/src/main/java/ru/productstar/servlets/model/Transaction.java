@@ -1,12 +1,14 @@
 package ru.productstar.servlets.model;
 
-public class Expense {
+public class Transaction {
     private String name;
     private int sum;
+    private TypeOfOpertion operation;
 
-    public Expense(String name, int sum) {
+    public Transaction(String name, int sum, TypeOfOpertion operation) {
         this.name = name;
         this.sum = sum;
+        this.operation = operation;
     }
 
     public String getName() {
@@ -17,11 +19,16 @@ public class Expense {
         return sum;
     }
 
+    public TypeOfOpertion getOperation() {
+        return operation;
+    }
+
     @Override
     public String toString() {
-        return "Expense{" +
+        return "Transaction{" +
                 "name='" + name + '\'' +
                 ", sum=" + sum +
+                ", operation=" + operation +
                 '}';
     }
 }

@@ -5,7 +5,9 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import ru.productstar.servlets.model.Expense;
+import ru.productstar.servlets.model.Transaction;
+import ru.productstar.servlets.model.TypeOfOpertion;
+import ru.productstar.servlets.service.CheckLogin;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -22,9 +24,9 @@ public class SummaryServlet extends HttpServlet {
 
         context.setAttribute("freeMoney", salary - rent);
 
-        List<Expense> expenses = new ArrayList<>();
-        expenses.add(new Expense("rent", rent));
-        context.setAttribute("expenses", expenses);
+        List<Transaction> transactions = new ArrayList<>();
+        transactions.add(new Transaction("rent", rent, TypeOfOpertion.EXPENSE));
+        context.setAttribute("transactions", transactions);
 
     }
 
@@ -33,11 +35,7 @@ public class SummaryServlet extends HttpServlet {
         var context = req.getServletContext();
         context.log("[SummaryServlet] doGet");
 
-        var session = req.getSession(false);
-        if (session == null) {
-            resp.getWriter().println("Not authorized");
-            return;
-        }
+        if (!CheckLogin.isAuthorized(req, resp)) {return;}
 
         req.getRequestDispatcher("/details").include(req, resp);
         resp.getWriter().println("Free money: " + context.getAttribute("freeMoney"));

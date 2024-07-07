@@ -21,6 +21,12 @@
             <version>6.0.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.gatein.pc</groupId>
+            <artifactId>pc-jsr168api</artifactId>
+            <version>2.3.0-Beta03</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -35,7 +41,7 @@
                     </httpConnector>
                     <supportedPackagings>jar</supportedPackagings>
                     <webApp>
-                        <descriptor>/home/spbartem/java_classes/product_star_level_1_part_5_spring/lesson_5_servlets/workshop-servlets/src/main/web-app/WEB-INF/web.xml</descriptor>
+                        <descriptor>/src/main/webapp/WEB-INF/web.xml</descriptor>
                     </webApp>
                 </configuration>
             </plugin>
